@@ -1,7 +1,7 @@
 require 'pry'
 class CashRegister
   attr_accessor :total, :discount, :cart
-
+@@cart = []
 
   def initialize(discount = nil)
     @total = 0
@@ -24,6 +24,7 @@ def add_item(title, price, quantity = 1)
   end
 
 def item
-@cart = []
+@@cart
 end
+
 end
