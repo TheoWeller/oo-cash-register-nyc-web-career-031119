@@ -6,10 +6,8 @@ class CashRegister
   end
 end
 
-def add_item(title, price, quantity = nil)
-if quantity = nil
-  self.total += price
-else
-  self.total = price * quantity
-end
+def add_item(title, price, quantity = 1)
+
+  self.total += price * quantity
+
 end
