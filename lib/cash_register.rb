@@ -12,6 +12,4 @@ if quantity = nil
 else
   self.total = price * quantity
 end
-
-
-  return  if
+end
