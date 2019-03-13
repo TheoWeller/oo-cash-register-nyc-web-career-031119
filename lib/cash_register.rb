@@ -7,5 +7,5 @@ class CashRegister
 end
 
 def add_item(title, price, quantity = nil)
-  self.@total += price
+  return self.@total += price if quantity = nil
 end
