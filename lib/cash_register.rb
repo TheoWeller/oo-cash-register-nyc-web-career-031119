@@ -15,6 +15,7 @@ class CashRegister
       "After the discount, the total comes to $#{@total}."
     end
 end
+end
 
 
 def add_item(title, price, quantity = 1)
