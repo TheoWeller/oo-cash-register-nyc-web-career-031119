@@ -10,8 +10,8 @@ class CashRegister
       @total = @total - @discount.r
       "After the discount, the total comes to #{@total}"
     end
-    return "There is no discount to apply." if discount = nil
-    nil
+    # return "There is no discount to apply." if discount = nil
+    # nil
 
 
 end
