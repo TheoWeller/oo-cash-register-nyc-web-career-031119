@@ -2,12 +2,12 @@ require 'pry'
 class CashRegister
   attr_accessor :total, :discount, :cart
 
-@cart = []
+
 
   def initialize(discount = nil)
     @total = 0
     @discount = discount
-
+    @cart = []
   def self.apply_discount
     if !@discount
     "There is no discount to apply."
