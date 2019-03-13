@@ -21,7 +21,9 @@ end
 
 def add_item(title, price, quantity = 1)
   self.total += price * quantity
-  @cart << title
+  while quantity > 0 [do]
+   @cart << title
+end
   end
 
 def items
