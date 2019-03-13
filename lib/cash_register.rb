@@ -23,7 +23,7 @@ def add_item(title, price, quantity = 1)
   @@cart << title
   end
 
-def item
+def self.item
 @@cart
 end
 
