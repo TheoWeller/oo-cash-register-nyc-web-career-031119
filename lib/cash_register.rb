@@ -12,7 +12,7 @@ class CashRegister
     end
     return "There is no discount to apply." if discount = nil
     nil
-  end
+  
 
 end
 
