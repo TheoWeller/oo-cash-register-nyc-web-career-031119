@@ -34,7 +34,7 @@ def items
 end
 
 def void_last_transaction
-
+@total -= @last_known_price
 end
 
 end
