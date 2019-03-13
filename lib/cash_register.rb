@@ -20,7 +20,7 @@ end
 
 def add_item(title, price, quantity = 1)
   self.total += price * quantity
-  #@cart << title
+  @@cart << title
   end
 
 def item
