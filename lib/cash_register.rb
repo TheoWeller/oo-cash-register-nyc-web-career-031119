@@ -9,9 +9,9 @@ end
 def add_item(title, price, quantity = nil)
 if quantity = nil
   self.@total += price
-else 
+else
   self.total = price * quantity
 end
 
 
-  return  if 
+  return  if
