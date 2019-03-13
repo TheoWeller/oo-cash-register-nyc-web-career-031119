@@ -24,12 +24,17 @@ def add_item(title, price, quantity = 1)
   while quantity > 0 do
    @cart << title
    quantity -= 1
+   @last_known_price = price
 end
   end
-  
+
 
 def items
   @cart
+end
+
+def void_last_transaction
+
 end
 
 end
