@@ -9,6 +9,10 @@ class CashRegister
       @discount = @total.to_f * 0.2
       @total = @total - @discount
     end
+    if discount = nil
+      "There is no discount to apply."
+    else
+      "After the discount, the total comes to $800."
 end
 
 
