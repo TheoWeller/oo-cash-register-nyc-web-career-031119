@@ -26,6 +26,7 @@ def add_item(title, price, quantity = 1)
    quantity -= 1
 end
   end
+  
 
 def items
   @cart
