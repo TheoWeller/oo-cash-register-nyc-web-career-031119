@@ -7,12 +7,12 @@ class CashRegister
     @discount = discount
   def self.apply_discount
       @discount = @total.to_f * 0.2
-      @total = @total - @discount
+      @total.to_nearest_i = @total - @discount
       "After the discount, the total comes to #{@total}"
     end
     return "There is no discount to apply." if discount = nil
     nil
-  
+
 
 end
 
