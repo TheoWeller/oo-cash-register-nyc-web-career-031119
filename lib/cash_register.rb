@@ -6,6 +6,6 @@ class CashRegister
   end
 end
 
-def add_item(title, price, quantity=1)
+def add_item(title, price, quantity = 1)
   price + @total
 end
